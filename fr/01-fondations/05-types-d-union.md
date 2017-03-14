@@ -7,7 +7,7 @@ Avec Elm, les __Types d'Union__ (_Union Types_) sont beaucoup utilisés de part 
 type Answer = Yes | No
 ```
 
-`Answer` peut aussi bien ête un `Yes` ou un `No`. Les types d'union sont utiles pour rendre votre code plus générique. Par exemple, une fonction qui est déclarée de cette manière :
+`Answer` peut aussi bien être un `Yes` ou un `No`. Les types d'union sont utiles pour rendre votre code plus générique. Par exemple, une fonction qui est déclarée de cette manière :
 
 ```elm
 respond : Answer -> String
